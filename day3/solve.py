@@ -18,7 +18,7 @@ def solve1(data):
             position_count[i] += 1 if c == "1" else 0
     print(position_count)
     print(len(data))
-    print(1816 * 2279) # xD
+    print(1816 * 2279)  # xD
 
 
 def calc_pos_count(vals):

@@ -27,8 +27,6 @@ def solve(data, func):
     )
 
 
-if __name__ == "__main__":
-    with open("input", "r") as f:
-        data = [line.strip() for line in f]
-    print(solve(data, min))
-    print(solve(data, max))
+with open("input", "r") as f:
+    data = [line.strip() for line in f]
+print(f"part 1: {solve(data, min)}, part 2: {solve(data, max)}")
